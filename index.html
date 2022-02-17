@@ -4,41 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <script src="https://kit.fontawesome.com/5809cfe296.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav class="navbar">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
     </nav>
     <section id="home">
-        <div class="headinghome">
             <div class="typing">
-              I'm Brandon Hukee.
+                I am Brandon Hukee.
             </div>
-        </div>
-        <!-- <div>
-            <button class="button">
-                button for linked in maybe?
-            </button>
-        </div> -->
     </section>
-
     <section id="about">
         <div id="pic">
             <h1 class="headingabout">ABOUT ME</h1>
-            <img src="/images/keyboard image.jpg" alt="keyboard_and_coffee">
+            <img src="/images/aboutme.jpg" alt="group_coding">
                 <div id="intro">
                 <h2>Brandon Hukee</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, pariatur odio blanditiis modi nostrum, hic odit, illo accusamus similique impedit iusto voluptatem eaque voluptas adipisci magnam quia at saepe dolorem asperiores beatae. Modi, facilis cum! Neque et officiis ducimus eligendi provident reprehenderit? Qui cumque earum libero provident iusto aut unde ut voluptatibus quaerat! Saepe praesentium totam commodi consequatur, harum recusandae quos tenetur. Laboriosam non fuga voluptas reprehenderit in quidem quos numquam autem dolorem beatae debitis vero, laborum dolor quam similique. Officia inventore suscipit vitae harum numquam, doloribus dolore illo officiis dolorem id amet quam tempore libero. In exercitationem natus accusantium.</p>
                 </div>
         </div>
+    </section>
+    <section id="projects">
+        <h1 class ="projectsheading">PROJECTS</h1>
+        <div class="myprojects">
+            <!-- Using random images as placeholders until projects are updated -->
+            <img src="/images/placeholder1.jpg" alt="screenshot of project 1">
+            <img src="/images/placeholder2.jpg" alt="screenshot of project 2">
+            <img src="/images/placeholder3.jpg" alt="screenshot of project 3">
+            <img src="/images/placeholder4.jpg" alt="screenshot of project 4">
+            <img src="/images/placeholder5.jpg" alt="screenshot of project 5">
+            <img src="/images/placeholder6.jpg" alt="screenshot of project 6">
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="contactheading">Contact Me</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter your name"">
+            <input type="email" name="email" class="input" placeholder="Enter your email"">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message"></textarea>
+            <input type="submit" value="Send" id="send">
+        </form>
     </section>
 </body>
 </html>

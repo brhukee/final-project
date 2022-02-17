@@ -11,6 +11,10 @@ font-family: 'Roboto Mono', monospace; */
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navbar */
 
 .navbar {
@@ -70,51 +74,17 @@ font-family: 'Roboto Mono', monospace; */
     z-index: -1;
     opacity: .93;
 }
-
-/* Button removed temporarily, may add back in */
-
-/* .button {
-    font-family: Francois One;
-    padding: 10px 35px;
-    border-radius: 12px;
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    outline: none;
-    transition: 1s ease;
-}
-
-.button:hover {
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
-    font-weight: bold;
-} */
-
-/* Typing effect on home screen */
-
-.headinghome {
-    font-family: Francois One;
-    font-size: 2rem;
-    text-align: left;
-    margin: 30px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    bottom: 30%;
-    left: 10%;
-}
   
 .typing {
-    width: 15ch;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    width: 16ch;
+    animation: typing 2s steps(26), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid;
-    font-family: Francois One;
-    font-size: 2em;
+    font-family: 'Francois One', sans-serif;
+    font-size: 4rem;
+    margin: 30px 0px;
+    animation-delay: 1s;
 }
 
 @keyframes typing {
@@ -134,11 +104,117 @@ font-family: 'Roboto Mono', monospace; */
 #about {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
 }
 
 .headingabout {
-    font-family: Francois One;
+    font-family: 'Francois One', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    margin: 10px 15px;
+}
+
+#pic {
+    display: flex;
+}
+
+#pic img {
+    width: 575px;
+    height: 400px;
+}
+
+#intro {
+    font-family: 'Francois One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+
+#intro h2 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Projects */
+
+#projects {
+    font-family: 'Francois One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+
+.myprojects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.myprojects img {
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}
+
+/*  Contact Me */
+
+.contactheading {
+    font-family: 'Francois One', sans-serif;
     font-size: 4rem;
     text-align: center;
     margin: 30px 0px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input {
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+#msg {
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+
+#send {
+    font-family: 'Francois One', sans-serif;
+    padding: 10px;
+    width: 10%;
+    margin: 20px;
+    border: none;
+    outline: none;
+}
+
+#send:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
 }
