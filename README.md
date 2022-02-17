@@ -1,12 +1,15 @@
 # final-project
-Landing page
-![image](https://user-images.githubusercontent.com/69055775/154395800-ceaa0cf2-48e8-4d88-80ab-86b9f29f1215.png)
+Home 
+![image](https://user-images.githubusercontent.com/69055775/154399760-f9716340-c046-42e5-ad44-76fddd885cf9.png)
 
-About me
-![image](https://user-images.githubusercontent.com/69055775/154395856-feea7531-8e3b-4f74-bfe2-c259b7ddb892.png)
+
+About Me
+![image](https://user-images.githubusercontent.com/69055775/154399797-6312844b-36ef-4826-b6f9-06a1d86e110d.png)
+
 
 Projects
-![image](https://user-images.githubusercontent.com/69055775/154395906-fda64770-58ad-497b-b16e-b30a70e177b4.png)
+![image](https://user-images.githubusercontent.com/69055775/154399830-9f0768fe-369f-4f04-a912-3db7075e9d0f.png)
+
 
 Contact Me
-![image](https://user-images.githubusercontent.com/69055775/154395938-fc98c7eb-5ca5-4312-ad6d-88b3f5b07691.png)
+![image](https://user-images.githubusercontent.com/69055775/154399872-5a4f1765-dcf3-4684-b21e-d112e338fe73.png)
