@@ -58,7 +58,7 @@ html {
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 840px;
+    height: 900px;
     justify-content: center;
     align-items: center;
     color: white;
@@ -67,9 +67,7 @@ html {
 #home::before {
     content: "";
     position: absolute;
-    top: 0;
-    right: 0;
-    background: url('/images/keyboardimage.jpg') no-repeat top center;
+    background: url(/images/keyboardimage.jpg) no-repeat center/cover;
     height: 900px;
     width: 100%;
     z-index: -1;
@@ -146,8 +144,8 @@ html {
 /* Projects */
 
 #projects {
-    background: url('/images/projectbackground.jpg') no-repeat center/cover;
-    height: 630px;
+    background: url(/images/projectbackground.jpg) no-repeat center/cover;
+    height: 600px;
     width: 100%;
     font-family: 'Francois One', sans-serif;
     font-size: 2rem;
