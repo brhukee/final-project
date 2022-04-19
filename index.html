@@ -8,6 +8,8 @@
     <script src="https://kit.fontawesome.com/5809cfe296.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
+    <!-- form location testing
+    <form action="https://formsubmit.co/brhukee1494@gmail.com" method="POST"></form> -->
 <body>
     <nav class="navbar">
         <ul>
@@ -36,32 +38,48 @@
     <section id="projects">
         <h1 class ="projectsheading">PROJECTS</h1>
         <div class="myprojects">
-            <!-- Using random images as placeholders until projects are updated -->
+            <!-- Using random images as placeholders until projects are updated *REPLACING WITH CAROUSEL* -->
             <img src="images/placeholder1.jpg" alt="screenshot of project 1">
             <img src="images/placeholder2.jpg" alt="screenshot of project 2">
-            <img src="images/placeholder3.jpg" alt="screenshot of project 3">
-            <img src="images/placeholder4.jpg" alt="screenshot of project 4">
-            <img src="images/placeholder5.jpg" alt="screenshot of project 5">
-            <img src="images/placeholder6.jpg" alt="screenshot of project 6">
         </div>
     </section>
     <section id="contact">
-        <h1 class="contactheading">Contact Me</h1>
+        <div class="contactheading">
+            <h1>CONTACT ME</h1>
+            <form target="_blank" action="https://formsubmit.co/brhukee1494@gmail.com" method="POST">
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" name="name" class="form-control" cols="30" rows="10" placeholder="Full Name" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" name="email" class="form-control" cols="30" rows="10" placeholder="Email Address" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" class="form-control-message" name="message" cols="30" rows="10" required></textarea>
+              </div>
+              <button type="submit" class="button">Send</button>
+            </form>
+          </div>
+        <!-- <h1 class="contactheading">Contact Me</h1>
         <form action="" class="form">
-            <input type="text" name="name" class="input" placeholder="Enter your name"">
-            <input type="email" name="email" class="input" placeholder="Enter your email"">
-            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message"></textarea>
-            <input type="submit" value="Send" id="send">
-        </form>
+                <input type="hidden" name="_subject" value="New email from portfolio website">
+                <input type="text" name="name" class="input" placeholder="Enter your name" required>
+                <input type="email" name="email" class="input" placeholder="Enter your email" required>
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message" required></textarea>
+                <input type="submit" value="Send" id="send">
+        </form> -->
     </section>
 </body>
 <footer>
     <div class="rounded-social-buttons">
-                      <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                      <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                      <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                      <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-                      <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a class="social-button facebook" href="https://www.facebook.com/profile.php?id=100000740366289" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      <!-- <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a> -->
+                      <a class="social-button linkedin" href="https://www.linkedin.com/in/brandonhukee/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                      <a class="social-button youtube" href="https://www.youtube.com/watch?v=zfBG0d5Oj3c" target="_blank"><i class="fab fa-youtube"></i></a>
+                      <!-- <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a> -->
                   </div>
   </footer>
 </html>
