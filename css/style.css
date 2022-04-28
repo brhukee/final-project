@@ -67,7 +67,7 @@ html {
 #home::before {
     content: "";
     position: absolute;
-    background: url(/images/keyboardimage.jpg) no-repeat center/cover;
+    background: url('/images/keyboardimage.jpg') no-repeat center/cover;
     height: 900px;
     width: 100%;
     z-index: -1;
@@ -144,7 +144,7 @@ html {
 /* Projects */
 
 #projects {
-    background: url(/images/projectbackground.jpg) no-repeat center/cover;
+    background: url('/images/projectbackground.jpg') no-repeat center/cover;
     height: 600px;
     width: 100%;
     font-family: 'Francois One', sans-serif;
